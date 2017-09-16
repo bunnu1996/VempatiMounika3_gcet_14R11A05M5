@@ -32,12 +32,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		// Add your implementation here
-		int index=22;
-		if(index<0||index>=0)
-		{
-		throw new IllegalArgumentException("error");
-		}
-		
 	}
 
 	@Override
@@ -134,10 +128,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudentsWithMaxAvgMark() {
 		// Add your implementation here
-		if(students==null)
-		{
-			throw new IllegalArgumentException("error");
-		}
 		return null;
 	}
 
