@@ -138,6 +138,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
-		return null;
+		return null
 	}
 }
