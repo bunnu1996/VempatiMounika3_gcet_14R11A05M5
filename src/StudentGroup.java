@@ -83,8 +83,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void removeToIndex(int index) {
 		// Add your implementation here
-		int n=4;
-		system.out.println(n);
+		
 	}
 
 	@Override
@@ -100,6 +99,10 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getByBirthDate(Date date) {
 		// Add your implementation here
+		if indexOfStudent == 0
+		{
+			throw new IllegalArgumentException("error");
+		}
 		return null;
 	}
 
