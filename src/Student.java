@@ -19,7 +19,7 @@ public class Student implements Comparable {
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
-	private String fullName
+	private String fullName;
 
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
@@ -34,7 +34,7 @@ public class Student implements Comparable {
 	public Student(int id, String fullName, Date birthDate, double avgMark) {
 		this.id = id;
 		this.fullName = fullName;
-		this.birthDaet = birthDate;
+		this.birthDate = birthDate;
 		this.avgMark = avgMark;
 	}
 
