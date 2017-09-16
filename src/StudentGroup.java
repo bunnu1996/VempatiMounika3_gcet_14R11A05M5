@@ -83,6 +83,8 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void removeToIndex(int index) {
 		// Add your implementation here
+		int n=4;
+		system.out.println(n);
 	}
 
 	@Override
@@ -138,6 +140,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student getNextStudent(Student student) {
 		// Add your implementation here
-		return null
+		return null;
 	}
 }
